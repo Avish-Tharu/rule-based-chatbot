@@ -1,8 +1,7 @@
-responses = {
-    "greeting": ["hello", "hi", "hey"],
-    "how_are_you": ["how are you", "how are you doing"],
-    "bye": ["bye", "exit", "quit"]
-}
+import json
+
+with open("responses.json", "r") as file:
+    responses = json.load(file)
 
 print("Chatbot started! Type 'bye' to exit.")
 

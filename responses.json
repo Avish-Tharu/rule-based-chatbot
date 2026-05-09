@@ -1,0 +1,5 @@
+{
+    "greeting": ["hello", "hi", "hey"],
+    "how_are_you": ["how are you", "how are you doing"],
+    "bye": ["bye", "exit", "quit"]
+}
