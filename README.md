@@ -7,21 +7,30 @@ A simple rule-based chatbot built using Python and keyword matching.
 - Responds to greetings
 - Handles simple conversations
 - Uses JSON-based responses
+- GUI chatbot using Tkinter
+- Remembers user name
+- Tells jokes and current time
 - Beginner-friendly project structure
 
 ## Technologies Used
 
 - Python
 - JSON
+- Tkinter
 - Git & GitHub
 
 ## Project Structure
 
-``` id="ew8l7s"
+```text
 rule-based-chatbot/
 │
+├── screenshots/
+│   └── chatbot-screenshot.png
+│
 ├── chatbot.py
+├── gui_chatbot.py
 ├── responses.json
+├── requirements.txt
 └── README.md
 ```
 
@@ -39,23 +48,36 @@ git clone https://github.com/Avish-Tharu/rule-based-chatbot.git
 cd rule-based-chatbot
 ```
 
-3. Run chatbot
+3. Run terminal chatbot
 
 ```bash
 python chatbot.py
 ```
 
+4. Run GUI chatbot
+
+```bash
+python gui_chatbot.py
+```
+
 ## Example Inputs
 
-``` id="mh0tvq"
+```text
 hello
-how are you
+tell me a joke
+my name is Tharushi
+what is my name
+time
 bye
 ```
 
+## GUI Preview
+
+![Chatbot Screenshot](screenshots/chatbot-screenshot.png)
+
 ## Future Improvements
 
-- Add more chatbot responses
+- Add NLP features
+- Add voice assistant support
 - Improve chatbot intelligence
-- Add GUI version
-- Add NLP features later
+- Add chatbot themes
